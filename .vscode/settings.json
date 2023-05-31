@@ -2,6 +2,11 @@
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
+        "lib/**/*.jar",
+        "/Users/alberthua/Downloads/guava-16.0.1-javadoc.jar",
+        "/Users/alberthua/Downloads/guava-16.0.1-site.jar",
+        "/Users/alberthua/Downloads/guava-16.0.1-sources.jar",
+        "/Users/alberthua/Downloads/guava-16.0.1.jar",
+        "/Users/alberthua/Projects/BlackWidow-Chess/lib/guava-18.0.jar"
     ]
 }

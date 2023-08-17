@@ -24,7 +24,7 @@ public abstract class Piece {
     public boolean equals(final Object other) {
         if (this == other) {
             return true;
-        } if (other instanceof Piece) {
+        } if (!(other instanceof Piece)) {
             return false;
         }
         final Piece otherPiece = (Piece) other;

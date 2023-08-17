@@ -58,7 +58,7 @@ public class Pawn extends Piece {
 
                     if (this.pieceAlliance != candidatePiece.getPieceAlliance()) {
                         // #TODO add more
-                        legalMoves.add(new AttackMove(candidatePiece, board, this, candidateDestinationCoordinate));
+                        legalMoves.add(new AttackMove(board, this, candidateDestinationCoordinate, candidatePiece));
                     }
 
                 }
@@ -72,7 +72,7 @@ public class Pawn extends Piece {
 
                     if (this.pieceAlliance != candidatePiece.getPieceAlliance()) {
                         // #TODO add more
-                        legalMoves.add(new AttackMove(candidatePiece, board, this, candidateDestinationCoordinate));
+                        legalMoves.add(new AttackMove(board, this, candidateDestinationCoordinate, candidatePiece));
                     }
 
                 }

@@ -49,7 +49,7 @@ public class Rook extends Piece {
                         final Alliance pieceAlliance = pieceDestination.getPieceAlliance();
 
                         if (this.pieceAlliance != pieceAlliance) {
-                            legalMoves.add(new AttackMove(pieceDestination, board, this, candidateDestinationCoordinate));
+                            legalMoves.add(new AttackMove(board, this, candidateDestinationCoordinate, pieceDestination));
                         }
 
                         break; // after running into an occupied tile, no more possible moves in the same direction

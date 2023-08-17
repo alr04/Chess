@@ -20,6 +20,8 @@ public class King extends Piece {
         super(PieceType.KING, piecePosition, pieceAlliance);
     }
 
+    //test test test
+
     @Override
     public Collection<Move> calculateLegalMoves(Board board) {
 
